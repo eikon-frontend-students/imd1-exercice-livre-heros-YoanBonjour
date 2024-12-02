@@ -1,10 +1,60 @@
 body {
   background-color: #1a1a1a;
   color: white;
+  max-width: 600px;
 }
 
 a {
-  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  text-decoration: none;
+  background-color: #042940;
+  border-radius: 12px;
 }
 
-/* 🦊 Compléter les styles de votre teaser  */
+div {
+  font-family: Arial, Helvetica, sans-serif;
+  color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  padding: 7, 5px;
+  padding-left: 10px;
+  padding-right: 17px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 20px;
+  margin-top: 0px;
+}
+img {
+  max-width: 200px;
+  padding: 10px;
+  background-color: #005c53;
+  border-radius: 10px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+h1 {
+  font-size: 30px;
+  margin-top: 0px;
+}
+
+.accroche {
+  font-size: 18px;
+  margin-top: 4px;
+  margin-bottom: 8px;
+}
+
+.nom {
+  font-size: 15px;
+  color: rgb(173, 160, 141);
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
